@@ -17,10 +17,10 @@
 
 <div class="viewport">
   <div class="wheel" style="transform: translateX({-offset * 35}px)">
-    <div class="number previous" style="transform:scale({3 + offset})">
+    <div class="number previous">
       {Math.floor($valueSpring - 1)}
     </div>
-    <div class="number current" style="transform:scale({2 + offset})">
+    <div class="number current" style="transform:scale({2 - offset})">
       {Math.floor($valueSpring)}
     </div>
     <div class="number next" style="transform:scale({1 + offset})">
